@@ -19,3 +19,12 @@
 
 
 ![task 2 ](https://github.com/Padawan18/databases/blob/main/task%202.png)
+
+
+Задание 3. Удаление по TTL в Memcached
+
+Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
+
+Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы
+
+![task 3 ](https://github.com/Padawan18/databases/blob/main/task%303.png)
