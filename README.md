@@ -27,4 +27,4 @@
 
 Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы
 
-![task 3 ](https://github.com/Padawan18/databases/blob/main/task%303.png)
+![task 3 ](https://github.com/Padawan18/databases/blob/main/task%203.png)
