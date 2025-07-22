@@ -4,22 +4,26 @@
 
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
 
-![task 2 ](https://github.com/Padawan18/databases/blob/main/1.1.png)
+![task 1 ](https://github.com/Padawan18/databases/blob/main/1.1.png)
 
 
-Задание 3. Удаление по TTL в Memcached
+## Задание 2. Kibana
+Установите и запустите Kibana.
+Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
 
-Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
-
-Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы
-
-![task 3 ](https://github.com/Padawan18/databases/blob/main/task%203.png)
+![task 2 ](https://github.com/Padawan18/databases/blob/main/2.1.png)
 
 
-Задание 4. Запись данных в Redis
+## Задание 3. Logstash
+Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
 
-Запишите в Redis несколько ключей с любыми именами и значениями.
+Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
 
-Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
+![task 3 ](https://github.com/Padawan18/databases/blob/main/3.png)
 
-![task 3 ](https://github.com/Padawan18/databases/blob/main/task%204.png)
+## Задание 4. Filebeat.
+Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
+
+Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
+
+![task 4 ](https://github.com/Padawan18/databases/blob/main/4.png)
