@@ -4,10 +4,7 @@
 
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
 
-
-
-
-![task 2 ](https://github.com/Padawan18/databases/blob/main/task%202.png)
+![task 2 ](https://github.com/Padawan18/databases/blob/main/1.1.png)
 
 
 Задание 3. Удаление по TTL в Memcached
