@@ -30,23 +30,8 @@
 
 
 
-## Задание 2. Kibana
-Установите и запустите Kibana.
-Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
+## Задание 2
 
-![task 2 ](https://github.com/Padawan18/databases/blob/main/2.1.png)
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 
-
-## Задание 3. Logstash
-Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
-
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
-
-![task 3 ](https://github.com/Padawan18/databases/blob/main/3.png)
-
-## Задание 4. Filebeat.
-Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
-
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
-
-![task 4 ](https://github.com/Padawan18/databases/blob/main/4.png)
+![task 1 ](https://github.com/Padawan18/databases/blob/main/mysql3.png)
