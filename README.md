@@ -22,4 +22,4 @@ GROUP BY
 HAVING 
     COUNT(customer.customer_id) > 300;
 ```
-(img/https://github.com/Padawan18/databases/blob/main/1.png)
+!(https://github.com/Padawan18/databases/blob/main/1.png)
