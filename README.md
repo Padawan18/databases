@@ -9,7 +9,8 @@
 
 - количество пользователей, закреплённых в этом магазине.
 
-``` select  store.store_id, concat(staff.first_name, ' ', staff.last_name) as fio, city,  COUNT(customer.customer_id) from store
+```
+select  store.store_id, concat(staff.first_name, ' ', staff.last_name) as fio, city,  COUNT(customer.customer_id) from store
 JOIN 
     staff ON store.manager_staff_id = staff.staff_id
 JOIN 
