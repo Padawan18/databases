@@ -22,4 +22,6 @@ GROUP BY
 HAVING 
     COUNT(customer.customer_id) > 300;
 ```
+Результат 
+
 ![test](https://github.com/Padawan18/databases/blob/main/1.png)
