@@ -22,6 +22,34 @@ GROUP BY
 HAVING 
     COUNT(customer.customer_id) > 300;
 ```
-Результат 
+Результат:
 
 ![test](https://github.com/Padawan18/databases/blob/main/1.png)
+
+## Задание 2
+
+Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
+
+```
+select count(*) from film 
+where length > 
+(select avg(length) from film)
+
+```
+
+![test](https://github.com/Padawan18/databases/blob/main/2.png)
+
+
+## Задание 3
+
+Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
+
+```
+select month(rental_date), sum(replacement_cost) as sum, count(*) from film
+join inventory on inventory.film_id=film.film_id
+join rental on rental.inventory_id = inventory.inventory_id
+group by month(rental_date)
+order by sum desc
+```
+
+![test](https://github.com/Padawan18/databases/blob/main/3.png)
