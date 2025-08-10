@@ -8,3 +8,16 @@
 - город нахождения магазина;
 
 - количество пользователей, закреплённых в этом магазине.
+
+``` select  store.store_id, concat(staff.first_name, ' ', staff.last_name) as fio, city,  COUNT(customer.customer_id) from store
+JOIN 
+    staff ON store.manager_staff_id = staff.staff_id
+JOIN 
+    customer ON store.store_id = customer.store_id
+JOIN 
+   city on staff.address_id=city.city_id
+GROUP BY 
+    store.store_id, fio
+HAVING 
+    COUNT(customer.customer_id) > 300;
+```
