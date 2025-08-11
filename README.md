@@ -45,11 +45,13 @@ where length >
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 
 ```
-select month(rental_date), sum(replacement_cost) as sum, count(*) from film
+select concat(month(payment_date),'.', year(payment_date)) as Месяц , sum(amount) as Сумма_за_месяц, count(distinct payment.rental_id) as 'Количество продаж' from film
 join inventory on inventory.film_id=film.film_id
 join rental on rental.inventory_id = inventory.inventory_id
-group by month(rental_date)
-order by sum desc
+join payment on payment.rental_id=rental.rental_id
+group by  Месяц
+order by Сумма_за_месяц desc
+limit 1
 ```
 
 ![test](https://github.com/Padawan18/databases/blob/main/3.png)
