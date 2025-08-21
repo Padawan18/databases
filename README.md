@@ -12,4 +12,10 @@ Master-slave репликация —  схема, в которой одна в
 
 Приложите скриншоты конфигурации, выполнения работы: состояния и режимы работы серверов.
 
+Master config
+
+![test](https://github.com/Padawan18/databases/blob/main/1.1.png)
+
+Master status 
+
 ![test](https://github.com/Padawan18/databases/blob/main/1.1.png)
