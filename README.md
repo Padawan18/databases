@@ -25,4 +25,5 @@ Slave config
 ![test](https://github.com/Padawan18/databases/blob/main/4.4.png)
 
 Slave status 
+
 ![test](https://github.com/Padawan18/databases/blob/main/3.3.png)
