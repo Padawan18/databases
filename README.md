@@ -46,4 +46,4 @@ Master-сервер и несколько slave-серверов
 Таблица книги:  Шардирование по book_id.
 
 Таблица магазины: Шардирование по городу city_id.
-![test](https://github.com/Padawan18/databases/blob/main/11.png)
+![test](https://github.com/Padawan18/databases/blob/main/111.png)
